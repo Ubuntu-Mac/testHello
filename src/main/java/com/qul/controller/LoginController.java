@@ -16,4 +16,9 @@ public class LoginController {
     public String login(){
         return "134556";
     }
+
+    @RequestMapping("/reg")
+    public String reg(){
+        return "cg";
+    }
 }
